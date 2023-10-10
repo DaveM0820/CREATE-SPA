@@ -12,23 +12,38 @@ This project is a simple patient registration system built with React for the fr
 
 ## Prerequisites
 
-Ensure you have the following installed on your local machine:
+Ensure you have the following installed on your server:
 
 - [Node.js](https://nodejs.org/en/) (v14.x or later)
 - [MongoDB](https://www.mongodb.com/try/download/community) (v4.x or later)
+
+## Issues and improvements
+
+Given the sensitive nature of the data bening handled, there are a number of improvements I'd implement if given additional time:
+
+1. More comprehensive adherence to HL7® FHIR® standards for communication, data storage, and validation
+2. Set up env file for storing sensitive server-side information
+3. Secure handling of encryption keys
+4. HTTPS for communication with server
+5. DB backups and load balancing plan
+6. Robust client side security
+7. Validation upon data decryption
+8. Integration with Ontario government APIs (if available) to further validate patient data
+
+These would each require thorough research to create a list of requirements, and for a real project would be done before work has started so that the project doesn't require significant refactoring as it's being developed.
 
 ## Setup
 
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/DaveM0820/patient-registration-system.git
+git clone https://github.com/DaveM0820/CREATE-SPA
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd patient-registration-system
+cd CREATE-SPA
 ```
 
 ### Backend Setup
@@ -44,6 +59,8 @@ Install the necessary dependencies:
 ```bash
 npm install
 ```
+
+Ensure MongoDB is running on your machine. If MongoDB is not installed, follow the instructions [here](https://www.mongodb.com/try/download/community) to download and install MongoDB Community Edition.
 
 Start the server:
 
