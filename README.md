@@ -19,10 +19,10 @@ Ensure you have the following installed on your server:
 
 ## Issues and improvements
 
-Given the sensitive nature of the data bening handled, there are a number of improvements I'd implement if given additional time:
+Given the sensitive nature of the data, there are a number of improvements that the probject would benefit from:
 
-1. More comprehensive adherence to HL7® FHIR® standards for communication, data storage, and validation
-2. Set up env file for storing sensitive server-side information
+1. Comprehensive adherence to HL7® FHIR® standards for communication, data storage, and validation
+2. Env file for storing sensitive server-side variables
 3. Secure handling of encryption keys
 4. HTTPS for communication with server
 5. DB backups and load balancing plan
