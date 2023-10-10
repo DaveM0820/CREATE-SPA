@@ -19,7 +19,7 @@ Ensure you have the following installed on your server:
 
 ## Issues and improvements
 
-Given the sensitive nature of the data, there are a number of improvements that the probject would benefit from:
+Given the sensitive nature of the data, there are a number of improvements the probject would benefit from:
 
 1. Comprehensive adherence to HL7® FHIR® standards for communication, data storage, and validation
 2. Env file for storing sensitive server-side variables
